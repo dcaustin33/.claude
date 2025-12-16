@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "plugins": {
+    "frontend-design@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/derek/.claude/plugins/cache/claude-code-plugins/frontend-design/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-03T14:30:50.586Z",
+        "lastUpdated": "2025-12-03T14:30:50.586Z",
+        "gitCommitSha": "84d7b085394b687e1531784350a858918fa6f8ed",
+        "isLocal": true
+      }
+    ],
+    "code-review@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/derek/.claude/plugins/cache/claude-code-plugins/code-review/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-03T14:30:50.586Z",
+        "lastUpdated": "2025-12-03T14:30:50.586Z",
+        "gitCommitSha": "84d7b085394b687e1531784350a858918fa6f8ed",
+        "isLocal": true
+      }
+    ]
+  }
+}

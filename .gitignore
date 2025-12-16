@@ -1,0 +1,10 @@
+todos/
+telemetry/
+statsig/
+shell-snapshots/
+file-history/
+projects/
+plans/
+settings.json
+session-env/
+debug/

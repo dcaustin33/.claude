@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json.schemastore.org/claude-code-settings.json",
+    "enabledPlugins": {
+      "frontend-design@claude-code-plugins": true,
+      "code-review@claude-code-plugins": true
+    },
+    "feedbackSurveyState": {
+      "lastShownTime": 1754082963204
+    },
+    "alwaysThinkingEnabled": true,
+    "env": {
+      "ANTHROPIC_AUTH_TOKEN": "",
+      "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+      "API_TIMEOUT_MS": "3000000",
+      "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-reasoner",
+      "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-reasoner",
+      "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-chat",
+      "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+    }
+  }
+  
