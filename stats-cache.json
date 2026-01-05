@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastComputedDate": "2025-12-15",
+  "lastComputedDate": "2026-01-04",
   "dailyActivity": [
     {
       "date": "2025-11-11",
@@ -127,6 +127,66 @@
       "messageCount": 691,
       "sessionCount": 9,
       "toolCallCount": 204
+    },
+    {
+      "date": "2025-12-16",
+      "messageCount": 969,
+      "sessionCount": 26,
+      "toolCallCount": 264
+    },
+    {
+      "date": "2025-12-17",
+      "messageCount": 542,
+      "sessionCount": 11,
+      "toolCallCount": 185
+    },
+    {
+      "date": "2025-12-18",
+      "messageCount": 850,
+      "sessionCount": 12,
+      "toolCallCount": 278
+    },
+    {
+      "date": "2025-12-19",
+      "messageCount": 183,
+      "sessionCount": 2,
+      "toolCallCount": 55
+    },
+    {
+      "date": "2025-12-22",
+      "messageCount": 379,
+      "sessionCount": 5,
+      "toolCallCount": 115
+    },
+    {
+      "date": "2025-12-25",
+      "messageCount": 69,
+      "sessionCount": 1,
+      "toolCallCount": 20
+    },
+    {
+      "date": "2025-12-30",
+      "messageCount": 421,
+      "sessionCount": 1,
+      "toolCallCount": 126
+    },
+    {
+      "date": "2026-01-01",
+      "messageCount": 780,
+      "sessionCount": 4,
+      "toolCallCount": 219
+    },
+    {
+      "date": "2026-01-02",
+      "messageCount": 674,
+      "sessionCount": 6,
+      "toolCallCount": 184
+    },
+    {
+      "date": "2026-01-04",
+      "messageCount": 900,
+      "sessionCount": 10,
+      "toolCallCount": 249
     }
   ],
   "dailyModelTokens": [
@@ -262,23 +322,93 @@
         "claude-opus-4-5-20251101": 67420,
         "claude-sonnet-4-5-20250929": 143401
       }
+    },
+    {
+      "date": "2025-12-16",
+      "tokensByModel": {
+        "glm-4.6": 385466,
+        "claude-opus-4-5-20251101": 27627,
+        "claude-sonnet-4-5-20250929": 54565,
+        "deepseek-reasoner": 138901
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "tokensByModel": {
+        "claude-opus-4-5-20251101": 47713,
+        "claude-sonnet-4-5-20250929": 53822
+      }
+    },
+    {
+      "date": "2025-12-18",
+      "tokensByModel": {
+        "claude-opus-4-5-20251101": 98011,
+        "claude-sonnet-4-5-20250929": 21814,
+        "claude-haiku-4-5-20251001": 3042
+      }
+    },
+    {
+      "date": "2025-12-19",
+      "tokensByModel": {
+        "claude-opus-4-5-20251101": 54784
+      }
+    },
+    {
+      "date": "2025-12-22",
+      "tokensByModel": {
+        "claude-opus-4-5-20251101": 51639
+      }
+    },
+    {
+      "date": "2025-12-25",
+      "tokensByModel": {
+        "claude-opus-4-5-20251101": 9290
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "tokensByModel": {
+        "claude-opus-4-5-20251101": 56432
+      }
+    },
+    {
+      "date": "2026-01-01",
+      "tokensByModel": {
+        "claude-opus-4-5-20251101": 68231,
+        "glm-4.7": 740292
+      }
+    },
+    {
+      "date": "2026-01-02",
+      "tokensByModel": {
+        "glm-4.7": 151774,
+        "claude-opus-4-5-20251101": 139924
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "tokensByModel": {
+        "claude-haiku-4-5-20251001": 10167,
+        "claude-opus-4-5-20251101": 138173,
+        "glm-4.7": 846113
+      }
     }
   ],
   "modelUsage": {
     "claude-sonnet-4-5-20250929": {
-      "inputTokens": 181514,
-      "outputTokens": 613416,
-      "cacheReadInputTokens": 111424566,
-      "cacheCreationInputTokens": 10209249,
+      "inputTokens": 201020,
+      "outputTokens": 724111,
+      "cacheReadInputTokens": 131609751,
+      "cacheCreationInputTokens": 12048127,
       "webSearchRequests": 0,
       "costUSD": 0,
       "contextWindow": 0
     },
     "claude-opus-4-5-20251101": {
-      "inputTokens": 87950,
-      "outputTokens": 233354,
-      "cacheReadInputTokens": 49797475,
-      "cacheCreationInputTokens": 4197449,
+      "inputTokens": 252524,
+      "outputTokens": 760604,
+      "cacheReadInputTokens": 205317913,
+      "cacheCreationInputTokens": 16369143,
       "webSearchRequests": 0,
       "costUSD": 0,
       "contextWindow": 0
@@ -291,31 +421,69 @@
       "webSearchRequests": 0,
       "costUSD": 0,
       "contextWindow": 0
+    },
+    "glm-4.6": {
+      "inputTokens": 356957,
+      "outputTokens": 28509,
+      "cacheReadInputTokens": 3673216,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "deepseek-reasoner": {
+      "inputTokens": 131822,
+      "outputTokens": 7079,
+      "cacheReadInputTokens": 1299584,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 3284,
+      "outputTokens": 9925,
+      "cacheReadInputTokens": 1417484,
+      "cacheCreationInputTokens": 148699,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
+    },
+    "glm-4.7": {
+      "inputTokens": 1470116,
+      "outputTokens": 268063,
+      "cacheReadInputTokens": 43675392,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0
     }
   },
-  "totalSessions": 101,
-  "totalMessages": 5563,
+  "totalSessions": 179,
+  "totalMessages": 11330,
   "longestSession": {
-    "sessionId": "3fd4e539-2bc8-49cd-b728-7450b1dfadf1",
-    "duration": 91993726,
-    "messageCount": 202,
-    "timestamp": "2025-11-28T17:07:37.998Z"
+    "sessionId": "2733b502-537f-4950-97ff-fca3457fd97a",
+    "duration": 93177804,
+    "messageCount": 421,
+    "timestamp": "2025-12-30T17:41:53.371Z"
   },
   "firstSessionDate": "2025-11-11T22:54:02.951Z",
   "hourCounts": {
-    "6": 1,
-    "9": 11,
-    "10": 12,
-    "11": 6,
-    "12": 5,
-    "13": 2,
-    "14": 11,
-    "15": 5,
-    "16": 5,
-    "17": 11,
-    "18": 3,
-    "19": 6,
-    "20": 16,
-    "21": 7
+    "6": 6,
+    "7": 1,
+    "8": 4,
+    "9": 18,
+    "10": 17,
+    "11": 12,
+    "12": 7,
+    "13": 6,
+    "14": 14,
+    "15": 6,
+    "16": 17,
+    "17": 27,
+    "18": 8,
+    "19": 7,
+    "20": 18,
+    "21": 11
   }
 }
